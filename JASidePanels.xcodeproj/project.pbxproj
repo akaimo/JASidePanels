@@ -28,6 +28,8 @@
 		A2D241651D5DACC900F397E4 /* JASidePanels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D2414F1D5DACC900F397E4 /* JASidePanels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A2D2416D1D5DACDE00F397E4 /* JASidePanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9561AD0D15130EE2005889C6 /* JASidePanelController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D2416E1D5DACE400F397E4 /* UIViewController+JASidePanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BCC45815F081130009F1DA /* UIViewController+JASidePanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D241781D5DB57100F397E4 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9561AD0E15130EE2005889C6 /* JASidePanelController.m */; };
+		A2D241791D5DB57100F397E4 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BCC45915F081130009F1DA /* UIViewController+JASidePanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -389,6 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D241781D5DB57100F397E4 /* JASidePanelController.m in Sources */,
+				A2D241791D5DB57100F397E4 /* UIViewController+JASidePanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
